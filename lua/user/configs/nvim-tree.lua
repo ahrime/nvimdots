@@ -9,14 +9,12 @@ return function(defaults) -- This is the parent spec in case you want to have so
 			dotfiles = true,
 			-- custom = { ".DS_Store" },
 			custom = {
-			  ".DS_Store",
 			  ".git",
 			  ".cache",
 			  ".fleet",
 			  ".git",
-			  ".idea"
 			  "output",
-			  ".vscode",
+			  ".vscode"
 			},
 			exclude = {},
 		},
